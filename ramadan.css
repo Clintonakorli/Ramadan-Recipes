@@ -1,0 +1,120 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+.hero {
+  background: url('ramadan\ bg.jpg') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+.hero-content h1 {
+  font-size: 2rem;
+}
+.hero-content p {
+  font-size: 1.2rem;
+}
+.btn {
+  background-color:rgb(61, 153, 57);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 600;
+}
+.cookies-section {
+  text-align: center;
+  padding: 40px 20px;
+}
+.cookies-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  
+}
+.topic{
+  color:  #344b32;
+  font-weight: 700;
+  
+}
+.cookie-card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 300px;
+}
+.cookie-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+.cookie-card h3 {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+.cookie-card#{
+  color: #37bb1d;
+  font-weight: bold;
+}
+.price {
+  color: #9c8501;
+ font-weight: bold;
+}
+footer {
+  background-color: #1e62c9;
+  color: white;
+  text-align: center;
+  padding:2rem,2rem;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-weight: 600;
+  
+}
+.shop.bar{
+background-color:rgb(61, 153, 57);
+color: white;
+padding: 10px 20px;
+border: none;
+border-radius: 15px;
+cursor: pointer;
+text-decoration: none;
+display: inline-block;
+font-weight: 800;
+font-size: 15px;
+
+}
+.image3{
+  cursor: pointer;
+  padding-bottom: 10x;
+}
+  
+
+
+.image2 {
+  
+  padding-top: 30px;
+  
+}
+.paragraph{
+  
+  padding-top: 70px;
+}
+@media (max-width: 600px) {
+  .hero-content h1 {
+      font-size: 1.5rem;
+  }
+  .hero-content p {
+      font-size: 1rem;
+  }
+  .cookies-container {
+      flex-direction: column;
+      align-items: center;
+  }
+}
